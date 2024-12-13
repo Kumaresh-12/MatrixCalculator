@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix Subtraction</title>
+    <link rel="stylesheet" href="/MatrixCalculator/CSS/bootstrap.css">
+    <link rel="stylesheet" href="/MatrixCalculator/CSS/index.css">
+</head>
+
+<body class="m-1">
+
+    <!-- Header -->
+
+    <header>
+        <nav class="navbar bg-001f3f rounded p-2 mb-3">
+            <h5 class="mt-1">Matrix Subtraction</h5>
+            <a href="/MatrixCalculator/HTML/matrixSolver.html" target="_top"><img
+                    src="/MatrixCalculator/MEDIA/Home_Icon.png" alt="Home_Icon" width="25" height="25"></a>
+        </nav>
+    </header>
+
+    <!-- Main -->
+
+    <main>
+
+        <!-- Section-1 -->
+
+        <section>
+            <div class="d-flex justify-content-center">
+                <div class="sec_1_div">
+                    <table>
+                        <tr>
+                            <th class="text-001f3f">Note:-</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <li>Matrixes can only subtracted if they have the same dimensions.</li>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <div class="row mx-1">
+            <div class="col-sm-6">
+
+                <!-- Section-2 -->
+
+                <section>
+                    <form style="display: none;" id="sec_2_form" class="sec_2_form"></form>
+                </section>
+            </div>
+            <div class="col-sm-6">
+
+                <!-- Section-3 -->
+
+                <section>
+                    <div style="display: none;" id="sec_3_div" class="sec_3_div"></div>
+                </section>
+
+            </div>
+        </div>
+
+        <!-- Section-4 -->
+
+        <section>
+            <div class="d-flex justify-content-center">
+                <form name="sec_4_form" id="sec_4_form" class="sec_4_form">
+                    <table class="d-flex justify-content-center">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <label class="form-label">How many matrix set in your problem ?</label>
+                                    <div class="error"></div>
+                                </td>
+                                <td>
+                                    <input name="num" type="text" class="inputField" id="noOfMatrix" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="form-label">Rows</label>
+                                    <div class="error"></div>
+                                </td>
+                                <td>
+                                    <input name="num" type="text" class="inputField" id="row" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label class="form-label">Columns</label>
+                                    <div class="error"></div>
+                                </td>
+                                <td>
+                                    <input name="num" type="text" class="inputField" id="column" required>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="text-center">
+                                    <input type="submit" class="btn btn-outline-001f3f" value="Next">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </section>
+
+        <!-- Section-5 -->
+
+        <section>
+            <div class="d-flex justify-content-center">
+                <div class="sec_5_div">
+                    <marquee behavior="scroll" direction="left" class="mt-1 fsS"><b>Other matrix operations will be
+                            upadated soon.</b>
+                    </marquee>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section-6 -->
+
+        <section>
+            <div class="d-flex justify-content-center">
+                <div class="sec_6_div">
+                    <a href="/MatrixCalculator/HTML/matrixAddition.html" target="_blank">
+                        <button class="btn btn-3a6d8c">Click here to solve Matrix Addition</button>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section-7 -->
+
+        <section>
+            <div class="d-flex justify-content-center">
+                <div class="sec_7_div">
+                    <h6 class="text-center">Upcoming Operations</h6>
+                    <h6 class="sec_7_div_h6 p-2">Matrix Multiplication</h6>
+                    <h6 class="sec_7_div_h6 p-2">Matrix Inverse</h6>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer>
+        <div class="container-fluid text-center bg-001f3f rounded p-2">
+            <h6 class="mt-1 fsS">&copy; This site is developed by Kumaresh Babu
+                <a href="https://www.linkedin.com/in/kumareshbabu" target="_blank">
+                    <img src="/MatrixCalculator/MEDIA/Linkedin Logo.png" alt="Linkedin_Icon" width="25" height="25"></a>
+            </h6>
+        </div>
+    </footer>
+
+    <script src="/MatrixCalculator/JS/add_sub.js"></script>
+    <script src="/MatrixCalculator/JS/subtraction.js"></script>
+</body>
+
+</html>
