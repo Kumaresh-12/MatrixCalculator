@@ -1,7 +1,3 @@
-// Array for storing input element values
-
-let inputEleValArr = [];
-
 // Function for calculation
 
 function calculate() {
@@ -11,6 +7,10 @@ function calculate() {
     while (sec_3_div.hasChildNodes()) {
         sec_3_div.removeChild(sec_3_div.firstChild);
     }
+
+    // Array for storing input element values
+
+    let inputEleValArr = [];
 
     // Condition for when will sec_3_div display
 
