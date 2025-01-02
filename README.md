@@ -1,3 +1,3 @@
-<h1>Matrix Solver</h1>
+# QR CODE GENERATOR
 
-- Matrix Solver [https://kumaresh-12.github.io/MatrixCalculator/](https://kumaresh-12.github.io/MatrixCalculator/)
+https://kumaresh-12.github.io/MatrixCalculator/
